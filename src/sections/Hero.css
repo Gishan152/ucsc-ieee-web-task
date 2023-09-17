@@ -1,0 +1,37 @@
+.container.hero {
+  background-color: var(--c--3);
+  margin-top: 0px !important;
+  padding-top: 9px !important;
+}
+
+.hero .heading {
+  height: 100vh;
+
+  /* background-color: purple; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  row-gap: 20px;
+}
+
+.hero .heading h1,
+.hero .heading span {
+  color: var(--c-2) !important;
+}
+
+@media (min-width: 900px) {
+  .hero .heading {
+    width: 85%;
+    text-align: left;
+    align-items: start;
+  }
+}
+
+.hero .bg {
+  width: 80%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}

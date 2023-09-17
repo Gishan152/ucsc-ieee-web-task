@@ -1,0 +1,28 @@
+.intro {
+  background-color: var(--c--2);
+  text-align: left;
+  color: black;
+}
+
+/* text-left-box */
+.text-box-left {
+  width: 85%;
+}
+@media (min-width: 900px) {
+  .text-box-left {
+    width: 75%;
+  }
+}
+
+.intro .col2box img {
+  width: 80%;
+}
+
+/* if need to limit put */
+/* @media (max-width: 900px) { */
+.intro .col2box img {
+  /* centering image */
+  position: relative;
+  left: 50%;
+  translate: -50%;
+}

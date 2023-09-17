@@ -1,0 +1,7 @@
+.faq {
+  background-color: var(--c--1);
+}
+
+.faq .section-title {
+  text-align: center;
+}

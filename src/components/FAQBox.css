@@ -1,0 +1,66 @@
+.faq-box {
+  cursor: pointer;
+  --wire-width: 5px;
+  --wire-offset: 5px;
+  /* background-color: red; */
+  margin: 30px auto;
+}
+
+@media (min-width: 600px) {
+  .faq-box {
+    width: 75%;
+  }
+}
+
+@media (min-width: 900px) {
+  .faq-box {
+    width: 65%;
+  }
+}
+
+.faq-box .question {
+  padding: 10px;
+  position: relative;
+  background-color: var(--c-2);
+}
+
+.faq-box .question .corner-box {
+  position: absolute;
+  z-index: 0;
+  background-color: var(--c-2);
+}
+
+.faq-box .question .box-tl-top {
+  width: 20%;
+  height: 5px;
+  top: calc(-1 * var(--wire-width) - var(--wire-offset));
+  left: calc(-1 * var(--wire-width) - var(--wire-offset));
+}
+
+.faq-box .question .box-tl-left {
+  width: 5px;
+  height: 50%;
+  top: calc(-1 * var(--wire-width) - var(--wire-offset));
+  left: calc(-1 * var(--wire-width) - var(--wire-offset));
+}
+
+.faq-box .question .box-br-bottom {
+  width: 20%;
+  height: 5px;
+  bottom: calc(-1 * var(--wire-width) - var(--wire-offset));
+  right: calc(-1 * var(--wire-width));
+}
+
+.faq-box .question .box-br-right {
+  width: 5px;
+  height: 50%;
+  bottom: calc(-1 * var(--wire-width) - var(--wire-offset));
+  right: calc(-1 * var(--wire-width) - var(--wire-offset));
+}
+
+.answer {
+  height: fit-content;
+  margin-top: 25px;
+  overflow-y: hidden;
+  background-color: var(--c--2);
+}

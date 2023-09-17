@@ -1,0 +1,39 @@
+.prizes {
+  background-color: var(--c-yellow);
+}
+
+.prizes .box h3 {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.prizes .box img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+}
+
+@media (min-width: 900px) {
+  .prizes .box img {
+    width: 60%;
+  }
+}
+
+.award-box {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: goldenrod;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  box-shadow: 5px 10px 15px rgb(73, 73, 73);
+}
+
+.award-box .award-title {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}

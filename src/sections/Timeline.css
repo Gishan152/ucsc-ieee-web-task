@@ -1,0 +1,25 @@
+.timeline {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: var(--c-2);
+  color: black;
+}
+
+.timeline-date {
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 50px;
+  font-size: 17px;
+}
+
+.timeline .box {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+@media (min-width: 900px) {
+  .timeline-date {
+    font-size: 22px;
+  }
+}

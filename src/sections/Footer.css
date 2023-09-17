@@ -1,0 +1,62 @@
+.footer {
+  background-color: rgb(59, 59, 59);
+}
+
+.footer .swiper-slide {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.footer img {
+  width: 80%;
+}
+
+.footer .logo-container {
+  display: grid;
+  padding-top: 30px;
+  margin: auto;
+  width: 75%;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "revolux revolux"
+    "aiesec ieee";
+}
+
+.footer .logo-container #aiesec-footer-logo {
+  width: 100%;
+  grid-area: aiesec;
+}
+
+.footer .logo-container #ieee-gooter-logo {
+  width: 100%;
+  grid-area: ieee;
+}
+
+.footer .logo-container #revolux-footer-logo {
+  width: 100%;
+  grid-area: revolux;
+}
+
+@media (min-width: 900px) {
+  .footer div.logo-container {
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "aiesec revolux ieee";
+  }
+}
+
+.copyright {
+  padding: 20px 0;
+  border-top: 2px gray solid;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+}
+
+.copyright span {
+  color: rgb(0, 255, 0);
+}
