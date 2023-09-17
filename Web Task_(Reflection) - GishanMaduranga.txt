@@ -1,0 +1,23 @@
+Since I have experiences with react
+I decided to create the website using React library
+
+And I used Codesandbox online platform to create the react app
+and at the end I created a github repository through Codesandbox
+and deployed the site on vercel.
+
+I wanted to create a website that is better
+than the examples you have given. (I think having a higher target is better even if it cannot be achieved so that at least we will reach close to it) and tried to make the website
+as responsive as possible. I think it will work on both desktop and mobile
+devices without any issue. I thought of making an animation something like
+images flip like the way we arrang a set of playing cards. but I 
+was not able to finish it.
+
+I understood that having a proper plan is really important.
+
+I did not get my hands on web development for about two months. Because of
+this project I revised many things like react, CSS, html sementics.
+I had used framer-motion, swipper libraries before but I used react-typed
+library for the first time in this project.
+
+I messed up CSS but was able to fix it. It's not like I don't know CSS.
+I think I have less experience with how to arrange CSS code properly.
